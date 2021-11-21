@@ -1,0 +1,9 @@
+matches:
+  # Print the current time
+  - trigger: ":now"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: date
+        params:
+          format: "%H:%M"

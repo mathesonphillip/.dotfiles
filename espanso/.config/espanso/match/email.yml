@@ -1,0 +1,6 @@
+matches:
+  - trigger: ":p@"
+    replace: "pmatheson@dxc.com"
+
+  - trigger: ":m@"
+    replace: "matheson.phillip@gmail.com"

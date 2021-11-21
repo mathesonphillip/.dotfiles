@@ -1,0 +1,9 @@
+matches:
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: date
+        params:
+          format: "%d/%m/%Y"
