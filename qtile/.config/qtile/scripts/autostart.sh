@@ -21,8 +21,8 @@ picom --config .config/picom/picom-blur.conf --experimental-backends &
 #/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 dunst &
 # feh --randomize --bg-fill /usr/share/wallpapers/garuda-wallpapers/*
-nitrogen --restore &
 #starting user applications at boot time
+run nitrogen --restore &
 run volumeicon &
 #run discord &
 # nitrogen --random --set-zoom-fill &
@@ -39,5 +39,6 @@ run bitwarden-desktop &
 run element-desktop &
 run caprine &
 run signal-desktop &
+run joplin-desktop &
 run code-oss &
 run microsoft-edge-beta &

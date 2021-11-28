@@ -531,7 +531,7 @@ def assign_app_group(client):
     d["2"] = [ "Atom", "Subl3", "Geany", "Brackets", "Code-oss", "Code", "Discord",
                "atom", "subl3", "geany", "brackets", "code-oss", "code", "discord", ]
     d["3"] = [ ]
-    d["4"] = [ ]
+    d["4"] = [ "Joplin", "joplin"]
     d["5"] = [ "Microsoft-edge-beta", "microsoft-edge-beta" ]
     d["6"] = ["Signal", "signal" "Element", "element", "caprine", "Caprine"]
     d["7"] = [ ]
